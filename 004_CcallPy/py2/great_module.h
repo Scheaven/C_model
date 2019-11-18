@@ -19,7 +19,7 @@
 #endif
 
 __PYX_EXTERN_C char *great_function(PyObject *);
-__PYX_EXTERN_C char *great_constfun(char const *, int);
+__PYX_EXTERN_C char great_constfun(PyObject *, PyObject *);
 
 #endif /* !__PYX_HAVE_API__great_module */
 
